@@ -1,0 +1,494 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test 1`] = `
+Object {
+  "assets": Array [
+    Object {
+      "chunkNames": Array [
+        "main",
+      ],
+      "chunks": Array [
+        0,
+      ],
+      "emitted": undefined,
+      "isOverSizeLimit": undefined,
+      "name": "assets/main_747d3475e9d7ecbc1211.js",
+      "size": 2402,
+    },
+    Object {
+      "chunkNames": Array [
+        "main",
+      ],
+      "chunks": Array [
+        0,
+      ],
+      "emitted": undefined,
+      "isOverSizeLimit": undefined,
+      "name": "assets/main_747d3475e9d7ecbc1211.js.map",
+      "size": 3133,
+    },
+  ],
+  "assetsByChunkName": Object {
+    "main": Array [
+      "assets/main_747d3475e9d7ecbc1211.js",
+      "assets/main_747d3475e9d7ecbc1211.js.map",
+    ],
+  },
+  "builtAt": 1542041915723,
+  "children": Array [
+    Object {
+      "assets": Array [],
+      "assetsByChunkName": Object {},
+      "children": Array [],
+      "chunks": Array [
+        Object {
+          "children": Array [],
+          "childrenByOrder": Object {},
+          "entry": true,
+          "files": Array [
+            "*",
+          ],
+          "filteredModules": 0,
+          "hash": "bbcd95a3cd97ad6b2024",
+          "id": 0,
+          "initial": true,
+          "modules": Array [
+            Object {
+              "assets": Array [],
+              "built": true,
+              "cacheable": true,
+              "chunks": Array [
+                0,
+              ],
+              "depth": 0,
+              "errors": 1,
+              "failed": true,
+              "id": 0,
+              "identifier": "/usr/local/git_tree/bugreport/style.css",
+              "index": 0,
+              "index2": 0,
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "name": "./style.css",
+              "optimizationBailout": Array [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module",
+              ],
+              "optional": false,
+              "prefetched": false,
+              "profile": undefined,
+              "providedExports": null,
+              "reasons": Array [
+                Object {
+                  "explanation": undefined,
+                  "loc": "mini-css-extract-plugin",
+                  "module": null,
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/usr/local/git_tree/bugreport/style.css",
+                },
+              ],
+              "size": 159,
+              "source": "throw new Error(\\"Module parse failed: Unexpected token (1:5)\\\\nYou may need an appropriate loader to handle this file type.\\\\n> body {\\\\n|     color: red;\\\\n| }\\");",
+              "usedExports": true,
+              "warnings": 0,
+            },
+          ],
+          "names": Array [
+            "mini-css-extract-plugin",
+          ],
+          "origins": Array [
+            Object {
+              "loc": "mini-css-extract-plugin",
+              "module": "",
+              "moduleId": undefined,
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "reasons": Array [],
+              "request": "!!/usr/local/git_tree/bugreport/style.css",
+            },
+          ],
+          "parents": Array [],
+          "reason": undefined,
+          "recorded": undefined,
+          "rendered": true,
+          "siblings": Array [],
+          "size": 159,
+        },
+      ],
+      "entrypoints": Object {
+        "mini-css-extract-plugin": Object {
+          "assets": Array [
+            "*",
+          ],
+          "childAssets": Object {},
+          "children": Object {},
+          "chunks": Array [
+            0,
+          ],
+          "isOverSizeLimit": undefined,
+        },
+      },
+      "errors": Array [
+        "./style.css 1:5
+Module parse failed: Unexpected token (1:5)
+You may need an appropriate loader to handle this file type.
+> body {
+|     color: red;
+| }",
+      ],
+      "filteredAssets": 0,
+      "filteredModules": 0,
+      "modules": Array [
+        Object {
+          "assets": Array [],
+          "built": true,
+          "cacheable": true,
+          "chunks": Array [
+            0,
+          ],
+          "depth": 0,
+          "errors": 1,
+          "failed": true,
+          "id": 0,
+          "identifier": "/usr/local/git_tree/bugreport/style.css",
+          "index": 0,
+          "index2": 0,
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "name": "./style.css",
+          "optimizationBailout": Array [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+          ],
+          "optional": false,
+          "prefetched": false,
+          "profile": undefined,
+          "providedExports": null,
+          "reasons": Array [
+            Object {
+              "explanation": undefined,
+              "loc": "mini-css-extract-plugin",
+              "module": null,
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!/usr/local/git_tree/bugreport/style.css",
+            },
+          ],
+          "size": 159,
+          "source": "throw new Error(\\"Module parse failed: Unexpected token (1:5)\\\\nYou may need an appropriate loader to handle this file type.\\\\n> body {\\\\n|     color: red;\\\\n| }\\");",
+          "usedExports": true,
+          "warnings": 0,
+        },
+      ],
+      "name": "mini-css-extract-plugin style.css",
+      "namedChunkGroups": Object {
+        "mini-css-extract-plugin": Object {
+          "assets": Array [
+            "*",
+          ],
+          "childAssets": Object {},
+          "children": Object {},
+          "chunks": Array [
+            0,
+          ],
+          "isOverSizeLimit": undefined,
+        },
+      },
+      "outputPath": "/usr/local/git_tree/bugreport/build",
+      "publicPath": "../",
+      "warnings": Array [],
+    },
+  ],
+  "chunks": Array [
+    Object {
+      "children": Array [],
+      "childrenByOrder": Object {},
+      "entry": true,
+      "files": Array [
+        "assets/main_747d3475e9d7ecbc1211.js",
+        "assets/main_747d3475e9d7ecbc1211.js.map",
+      ],
+      "filteredModules": 0,
+      "hash": "0bf3678947346c3b53c5",
+      "id": 0,
+      "initial": true,
+      "modules": Array [
+        Object {
+          "assets": Array [],
+          "built": true,
+          "cacheable": true,
+          "chunks": Array [
+            0,
+          ],
+          "depth": 0,
+          "errors": 0,
+          "failed": false,
+          "id": 0,
+          "identifier": "/usr/local/git_tree/bugreport/index.js",
+          "index": 0,
+          "index2": 1,
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "name": "./index.js",
+          "optimizationBailout": Array [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+          ],
+          "optional": false,
+          "prefetched": false,
+          "profile": undefined,
+          "providedExports": null,
+          "reasons": Array [
+            Object {
+              "explanation": undefined,
+              "loc": "main",
+              "module": null,
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./index.js",
+            },
+          ],
+          "size": 44,
+          "source": "require('./style.css');
+console.log('hello')",
+          "usedExports": true,
+          "warnings": 0,
+        },
+        Object {
+          "assets": Array [],
+          "built": true,
+          "cacheable": true,
+          "chunks": Array [
+            0,
+          ],
+          "depth": 1,
+          "errors": 1,
+          "failed": true,
+          "id": 1,
+          "identifier": "/usr/local/git_tree/bugreport/node_modules/mini-css-extract-plugin/dist/loader.js??ref--4-0!/usr/local/git_tree/bugreport/style.css",
+          "index": 1,
+          "index2": 0,
+          "issuer": "/usr/local/git_tree/bugreport/index.js",
+          "issuerId": 0,
+          "issuerName": "./index.js",
+          "issuerPath": Array [
+            Object {
+              "id": 0,
+              "identifier": "/usr/local/git_tree/bugreport/index.js",
+              "name": "./index.js",
+              "profile": undefined,
+            },
+          ],
+          "name": "./style.css",
+          "optimizationBailout": Array [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+          ],
+          "optional": false,
+          "prefetched": false,
+          "profile": undefined,
+          "providedExports": null,
+          "reasons": Array [
+            Object {
+              "explanation": undefined,
+              "loc": "1:0-22",
+              "module": "./index.js",
+              "moduleId": 0,
+              "moduleIdentifier": "/usr/local/git_tree/bugreport/index.js",
+              "moduleName": "./index.js",
+              "type": "cjs require",
+              "userRequest": "./style.css",
+            },
+          ],
+          "size": 1376,
+          "source": "throw new Error(\\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\\\nModuleParseError: Module parse failed: Unexpected token (1:5)\\\\nYou may need an appropriate loader to handle this file type.\\\\n> body {\\\\n|     color: red;\\\\n| }\\\\n    at handleParseError (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:432:19)\\\\n    at doBuild.err (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:466:5)\\\\n    at runLoaders (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:327:12)\\\\n    at /usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:370:3\\\\n    at iterateNormalLoaders (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:211:10)\\\\n    at Array.<anonymous> (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:202:4)\\\\n    at Storage.finished (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:43:16)\\\\n    at provider (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:79:9)\\\\n    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16\\\\n    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16\\\\n    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)\\");",
+          "usedExports": true,
+          "warnings": 0,
+        },
+      ],
+      "names": Array [
+        "main",
+      ],
+      "origins": Array [
+        Object {
+          "loc": "main",
+          "module": "",
+          "moduleId": undefined,
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "reasons": Array [],
+          "request": "./index.js",
+        },
+      ],
+      "parents": Array [],
+      "reason": undefined,
+      "recorded": undefined,
+      "rendered": true,
+      "siblings": Array [],
+      "size": 1420,
+    },
+  ],
+  "entrypoints": Object {
+    "main": Object {
+      "assets": Array [
+        "assets/main_747d3475e9d7ecbc1211.js",
+        "assets/main_747d3475e9d7ecbc1211.js.map",
+      ],
+      "childAssets": Object {},
+      "children": Object {},
+      "chunks": Array [
+        0,
+      ],
+      "isOverSizeLimit": undefined,
+    },
+  },
+  "errors": Array [
+    "./style.css
+Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+ModuleParseError: Module parse failed: Unexpected token (1:5)
+You may need an appropriate loader to handle this file type.
+> body {
+|     color: red;
+| }
+    at handleParseError (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:432:19)
+    at doBuild.err (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:466:5)
+    at runLoaders (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:327:12)
+    at /usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:370:3
+    at iterateNormalLoaders (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:211:10)
+    at Array.<anonymous> (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:202:4)
+    at Storage.finished (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:43:16)
+    at provider (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:79:9)
+    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16
+    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+ @ ./index.js 1:0-22",
+  ],
+  "filteredAssets": 0,
+  "filteredModules": 0,
+  "hash": "f378d8e0478fd50b29a6",
+  "modules": Array [
+    Object {
+      "assets": Array [],
+      "built": true,
+      "cacheable": true,
+      "chunks": Array [
+        0,
+      ],
+      "depth": 0,
+      "errors": 0,
+      "failed": false,
+      "id": 0,
+      "identifier": "/usr/local/git_tree/bugreport/index.js",
+      "index": 0,
+      "index2": 1,
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "name": "./index.js",
+      "optimizationBailout": Array [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+      ],
+      "optional": false,
+      "prefetched": false,
+      "profile": undefined,
+      "providedExports": null,
+      "reasons": Array [
+        Object {
+          "explanation": undefined,
+          "loc": "main",
+          "module": null,
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./index.js",
+        },
+      ],
+      "size": 44,
+      "source": "require('./style.css');
+console.log('hello')",
+      "usedExports": true,
+      "warnings": 0,
+    },
+    Object {
+      "assets": Array [],
+      "built": true,
+      "cacheable": true,
+      "chunks": Array [
+        0,
+      ],
+      "depth": 1,
+      "errors": 1,
+      "failed": true,
+      "id": 1,
+      "identifier": "/usr/local/git_tree/bugreport/node_modules/mini-css-extract-plugin/dist/loader.js??ref--4-0!/usr/local/git_tree/bugreport/style.css",
+      "index": 1,
+      "index2": 0,
+      "issuer": "/usr/local/git_tree/bugreport/index.js",
+      "issuerId": 0,
+      "issuerName": "./index.js",
+      "issuerPath": Array [
+        Object {
+          "id": 0,
+          "identifier": "/usr/local/git_tree/bugreport/index.js",
+          "name": "./index.js",
+          "profile": undefined,
+        },
+      ],
+      "name": "./style.css",
+      "optimizationBailout": Array [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+      ],
+      "optional": false,
+      "prefetched": false,
+      "profile": undefined,
+      "providedExports": null,
+      "reasons": Array [
+        Object {
+          "explanation": undefined,
+          "loc": "1:0-22",
+          "module": "./index.js",
+          "moduleId": 0,
+          "moduleIdentifier": "/usr/local/git_tree/bugreport/index.js",
+          "moduleName": "./index.js",
+          "type": "cjs require",
+          "userRequest": "./style.css",
+        },
+      ],
+      "size": 1376,
+      "source": "throw new Error(\\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\\\nModuleParseError: Module parse failed: Unexpected token (1:5)\\\\nYou may need an appropriate loader to handle this file type.\\\\n> body {\\\\n|     color: red;\\\\n| }\\\\n    at handleParseError (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:432:19)\\\\n    at doBuild.err (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:466:5)\\\\n    at runLoaders (/usr/local/git_tree/bugreport/node_modules/webpack/lib/NormalModule.js:327:12)\\\\n    at /usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:370:3\\\\n    at iterateNormalLoaders (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:211:10)\\\\n    at Array.<anonymous> (/usr/local/git_tree/bugreport/node_modules/loader-runner/lib/LoaderRunner.js:202:4)\\\\n    at Storage.finished (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:43:16)\\\\n    at provider (/usr/local/git_tree/bugreport/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:79:9)\\\\n    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16\\\\n    at /usr/local/git_tree/bugreport/node_modules/graceful-fs/graceful-fs.js:90:16\\\\n    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)\\");",
+      "usedExports": true,
+      "warnings": 0,
+    },
+  ],
+  "namedChunkGroups": Object {
+    "main": Object {
+      "assets": Array [
+        "assets/main_747d3475e9d7ecbc1211.js",
+        "assets/main_747d3475e9d7ecbc1211.js.map",
+      ],
+      "childAssets": Object {},
+      "children": Object {},
+      "chunks": Array [
+        0,
+      ],
+      "isOverSizeLimit": undefined,
+    },
+  },
+  "outputPath": "/usr/local/git_tree/bugreport/build",
+  "publicPath": "",
+  "time": 222,
+  "version": "4.25.1",
+  "warnings": Array [],
+}
+`;
